@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js">
+    </script>
+    <title>Team Ruby</title>
+</head>
+    <!--NAV BAR-->
+    <div class="topnav" id="myTopnav">
+        <a href="index.html#" class="active">Home</a>
+        <a href="html/about.html">About</a>
+        <div class="drop-down">
+            <a href="#" class="dropbtn">Portolio</a>
+            <div class="dropdown-content">
+                <a href="html/portfolio-graphic.html#graphic-com">Graphics Compositions</a>
+                <a href="html/portfolio.html#photo-com">Photography Compositions</a>
+            </div>
+        </div>
+        <a href="index.html#team-profile">Team Profile</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="showButton()">&#9776;</a>
+    </div>
+    <!--BANNER-->
+    <div class="replacement text-center">
+        <p class="pt-2" id="team-title">TEAM RUBY</p>
+        <hr class="rep-hr">
+    </div>
+    <img src="images/banner.png" alt="" class="banner">
+
+    <!--- Team Profile -->
+    <div id="team-profile" class="text-center p-5">
+            <h1 class="fw-light px">WHAT IS TEAM RUBY FOR?</h1>
+            <p class="lead">
+                What does it mean to work in a group? Each member of a team shares the same goal and understands what they must do as part of the team to achieve it. Team Ruby is also a group of individuals who are interdependent and work together to achieve a common goal.
+            </p>
+            <a href="#team-profile-content" class="btn-normal custom-btn">View Team Profile</a>
+        </div>
+    </div>
+    <hr>
+    <!--Team profile Content-->
+    <div class="container" id="team-profile-content">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 offset-lg-2 p-5">
+                <img src="images/teamprofile/Emoricha.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-1', this)">
+                <div class="content" id="content-info-1">
+                    <p>
+                        <h3 class="text-center">JOHN MIEL N. EMORICHA</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #CF0000;">Team Leader</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/DirtyWhite17/" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="John Miel Emoricha"></a>
+                            <a href="mailto:chasauce19@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="chasauce19@gmail.com"></a>
+                        </div>
+                    </p>    
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 p-5">
+                <img src="images/teamprofile/Molena.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-2', this)">
+                <div class="content" id="content-info-2">
+                    <p>
+                        <h3 class="text-center">CESAR B. MOLINA JR.</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/profile.php?id=100019084847116" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Cesar B. Molina Jr."></a>
+                            <a href="mailto:cesarmolinajr3@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="cesarmolinajr3@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Bareta.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-3', this)">
+                <div class="content" id="content-info-3">
+                    <p>
+                        <h3 class="text-center">JORELYNE P. BARETA</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/jorelynebareta2001" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Jorelyne P Radana Bareta"></a>
+                            <a href="mailto:jorelynebareta@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="jorelynebareta@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Daga.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-4', this)">
+                <div class="content" id="content-info-4">
+                    <p>
+                        <h3 class="text-center">JAYPEE A. DAGA</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/jaypee.daga" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="JP Daga"></a>
+                            <a href="mailto:jaypeedaga23@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="jaypeedaga23@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Cualbar.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-5', this)">
+                <div class="content"  id="content-info-5">
+                    <p>
+                        <h3 class="text-center">JHEANROSE C. CUALBAR</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/jheanrose.cualbar" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Jheanrose Cualbar"></a>
+                            <a href="mailto:cjheanrose12@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="cjheanrose12@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Cardenas.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-6', this)">
+                <div class="content" id="content-info-6">
+                    <p>
+                        <h3 class="text-center">JEPHTY DOS R. CARDENAS</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/JephtyDos" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Jephty Cardenas II"></a>
+                            <a href="mailto:cardenasjephty20@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="cardenasjephty20@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Ompad.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-7', this)">
+                <div class="content" id="content-info-7">
+                    <p>
+                        <h3 class="text-center">ALEXANDRA MAE OMPAD</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/alexandramaeompad" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Alexandra Mae Ompad"></a>
+                            <a href="mailto:alexandramaeompad@gmail.comm"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="alexandramaeompad@gmail.comm"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-5">
+                <img src="images/teamprofile/Gabihan.png" alt="" class="img-thumb-cus" onclick="displayInfo('content-info-8', this)">
+                <div class="content" id="content-info-8">
+                    <p>
+                        <h3 class="text-center">ABIGAIL S. GABIJAN</h3>
+                    </p>
+                    <p class="text-center">
+                        <i style="color: #2E8C2E;">Team Member</i> 
+                        <hr>
+                        <div class="text-center">
+                            <a href="https://www.facebook.com/abigailgabijan" target="_blank"><img src="images/icons/facebook-logo-2019.png" alt="fb icon" class="px-2 fb-icon" title="Abigail Gabijan"></a>
+                            <a href="mailto:abigailgabijan@gmail.com"><img src="images/icons/gmail.png" alt="gmail-icon" class="px-2 gmail-icon" title="abigailgabijan@gmail.com"></a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer id="contact">
+        <div class="text-muted p-5">
+            <p class="float-end">
+                <a href="#">Back to top</a>
+            </p>
+            <h2 class="px-sm-3">Contact Us</h2>
+            <br>
+            <p class="text-wrap px-sm-3">&copy Team Ruby Studio
+                <br>Email: <a href="#footer">teamruby@studio.org</a> 
+                <br>Mobile: +63 945 500 3413
+                <br>Address: Corner Leon Kilat and P. del Rosario st., Cebu City, Philippines
+            </p>
+        </div>
+        <hr />
+        <div class="pb-1 text-center">
+            <p class="reserve">&copy All Rights Reserved 2021 Portfolio | Team Ruby</p>
+        </div>
+    </footer>
+</body>
+</html>

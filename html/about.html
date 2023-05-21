@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css//portfolio.css">
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css">
+    <title>About</title>
+</head>
+<body>
+    <!--NAV BAR-->
+    <div class="topnav" id="myTopnav">
+        <a href="../index.html" class="active">Home</a>
+        <a href="portfolio.html#about">About</a>
+        <div class="drop-down">
+            <a href="#" class="dropbtn">Portolio</a>
+            <div class="dropdown-content">
+                <a href="portfolio-graphic.html">Graphics Compositions</a>
+                <a href="#photo-com">Photography Compositions</a>
+            </div>
+        </div>
+        <a href="../index.html#team-profile">Team Profile</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
+    <!--ABOUT-->
+    <div class="container text-center py-5">
+        <div class="row">
+            <h1 class="fw-light">Graphics Compositions</h1>
+            <p class="lead">
+                Graphic design focuses on communicating a message visually. Graphic design is all around you, it's all about expressing an idea in the best way using visual story telling. Great graphic design allows you to make a positive first impression on those who looks at it. The key to mastering layout in a composition is to think like a desinger.
+            </p>
+            <p>
+                <a href="portfolio-graphic.html" class="btn-normal custom-btn my-2 px-3">View</a>
+            </p>
+        </div>
+        <div class="row">
+            <h1 class="fw-light">Photography Compositions</h1>
+            <p class="lead">
+                Photography Composition is about arranging, creating, seeing, framing and cropping. Composition must guide the viewer, their eye will make its way through the frame of a photograph and an artist tells a story within the confines of a single frame. There are few things we can compose photos using smartphones: natural light, contrast, space, color, frames and lines.
+            </p>
+            <p>
+                <a href="porfolio-photography.html" class="btn-normal custom-btn my-2 px-3">View</a>
+            </p>
+        </div>
+    </div>
+    <!--FOOTER-->
+    <footer id="contact">
+        <div class="text-muted p-5">
+            <p class="float-end">
+                <a href="#">Back to top</a>
+            </p>
+            <h2 class="px-sm-3">Contact Us</h2>
+            <br>
+            <p class="text-wrap px-sm-3">&copy Team Ruby Studio
+                <br>Email: <a href="#contact">teamruby@studio.org</a> 
+                <br>Mobile: +63 945 500 3413
+                <br>Address: Corner Leon Kilat and P. del Rosario st., Cebu City, Philippines
+            </p>
+        </div>
+        <hr />
+        <div class="pb-1 text-center">
+            <p class="reserve">&copy All Rights Reserved 2021 Portfolio | Team Ruby</p>
+        </div>
+    </footer>
+        <!--JS-->
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myTopnav");
+                if (x.className === "topnav") {
+                    x.className += " responsive";
+                } else {
+                    x.className = "topnav";
+                }
+            }
+        </script>
+</body>
+</html>
